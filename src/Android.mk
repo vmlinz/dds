@@ -23,7 +23,7 @@ else
 DDS_CC_THR		:=
 endif
 
-DDS_CC_FLAGS	:= -O3 -flto
+DDS_CC_FLAGS	:= -O3 -flto -fsigned-char
 DDS_LD_FLAGS	:= 		\
 	-Wl,--dynamicbase 	\
 	-Wl,--nxcompat 		\
