@@ -560,7 +560,7 @@ int STDCALL Par(struct ddTableResults * tablep, struct parResults *presp,
 	  for the sacrifice is too small. */
 	}
 
-	int opp_tricks = max(t3[j], t4[j]);
+	int opp_tricks = Max(t3[j], t4[j]);
 
 	while (max_lower > 0) {
 	  sc3 = -rawscore(-1, best_par[m][i].par_tricks - max_lower - opp_tricks,
