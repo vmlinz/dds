@@ -24,6 +24,7 @@ DDS_CC_THR		:=
 endif
 
 LOCAL_MODULE    := dds
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
 LOCAL_CFLAGS += $(DDS_CC_THR)
 LOCAL_SRC_FILES := \
     dds.cpp \
